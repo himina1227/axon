@@ -1,1 +1,4 @@
 rootProject.name = 'axon'
+
+include ':command'
+include ':query'
