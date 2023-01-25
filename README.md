@@ -4,5 +4,6 @@
 
 ### 프로젝트 구조
 
-- command: 커멘드
-- query: query
+- command: 명령 모듈
+- query: 조회 모듈
+- common: 공콩 모듈

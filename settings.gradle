@@ -2,3 +2,4 @@ rootProject.name = 'axon'
 
 include ':command'
 include ':query'
+include ':common'
