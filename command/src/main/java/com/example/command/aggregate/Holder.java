@@ -1,6 +1,10 @@
 package com.example.command.aggregate;
 
+import com.example.command.command.HolderCommand;
+import com.example.common.event.HolderEvent;
+import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
+import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
 /**
@@ -17,4 +21,5 @@ public class Holder {
     private String tel;
 
     private String address;
+
 }
